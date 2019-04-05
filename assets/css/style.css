@@ -1631,9 +1631,9 @@ li.open > a:focus {
 .hero .hero-bio {
   color: #ababc7;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 35px;
   margin-bottom: 33px;
 }
 
@@ -1889,7 +1889,7 @@ li.open > a:focus {
   font-family: fontawesome;
   font-size: 16px;
   line-height: 26px;
-  color: #f8c652;
+  color: #b4ad9d;
 }
 
 .feature-center {
@@ -1910,6 +1910,11 @@ li.open > a:focus {
 }
 .feature-2 .feature-panel .feature-content p {
   margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.target {
+  font-size: 20px !important;
 }
 
 /* Custom, iPhone Retina */
