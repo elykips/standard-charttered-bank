@@ -41,6 +41,14 @@ To make it easy to update your theme, you should not edit the styles in this fil
 the custom.css file to add your styles. You can copy a style from this file and paste it in 
 custom.css and it will override the style in this file. You have been warned! :)
 */
+
+ziara-primary {
+  color:#44ccff !important;
+}
+ziara-accent {
+  color:#63d84a !important;
+}
+
 body,
 html {
   overflow-x: hidden;
@@ -1147,16 +1155,16 @@ section {
 
 /* Button Primary */
 .btn--primary {
-  background-color: #664ffa;
+  background-color: #63d84a;
   color: #ffffff;
-  border-color: #664ffa;
+  /* border-color: #664ffa; */
 }
 
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
-  background-color: #3b1df9;
-  border-color: #3b1df9;
+  background-color: #44ccff;
+  /* border-color: #3b1df9; */
   color: #ffffff;
 }
 
@@ -1232,16 +1240,16 @@ section {
 }
 
 .btn--bordered.btn--primary {
-  color: #664ffa;
-  border-color: #664ffa;
+  color: #63d84a; 
+  border-color: #63d84a;
 }
 
 .btn--bordered.btn--primary:active,
 .btn--bordered.btn--primary:focus,
 .btn--bordered.btn--primary:hover {
   color: #ffffff;
-  background-color: #664ffa;
-  border-color: #664ffa;
+  background-color: #44ccff;
+  border-color: #44ccff;
 }
 
 .btn--bordered.btn--secondary {
@@ -1424,7 +1432,7 @@ label {
 }
 
 .navbar-nav > li {
-  margin-right: 50px;
+  margin-right: 25px;
 }
 .navbar-nav > li:last-child {
   margin-right: 0;
@@ -1434,11 +1442,11 @@ label {
   text-transform: capitalize;
   font-weight: 400;
   line-height: 140px;
-  color: #6262a0;
+  color: black;
   padding: 0;
 }
 .navbar-nav > li > a:hover {
-  color: #664ffa;
+  color: #48C2FF;
 }
 
 /* Small Devices, Tablets */
@@ -2195,7 +2203,7 @@ footer .footer-top .footer-logo {
   margin-bottom: 36px;
 }
 footer .footer-top .footer-info p {
-  color: #6262a0;
+  color: #63d84a;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -2208,7 +2216,7 @@ footer .footer-top .footer-menu {
 footer .footer-top .footer-menu a {
   font-size: 16px;
   font-weight: 400;
-  color: #6262a0;
+  color:  #63d84a;
   margin-right: 30px;
   text-transform: capitalize;
 }
@@ -2223,12 +2231,13 @@ footer .footer-top .footer-social {
 }
 footer .footer-top .footer-social a {
   font-size: 16px;
-  color: #6262a0;
+  color:   #48C2FF; 
+
   margin-right: 20px;
   display: inline-block;
 }
 footer .footer-top .footer-social a:hover {
-  color: #664ffa;
+  color: #63d84a;
 }
 footer .footer-top .footer-social a:last-of-type {
   margin-right: 0;
